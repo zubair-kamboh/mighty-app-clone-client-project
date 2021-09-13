@@ -1,6 +1,6 @@
 /* header */
 .logo-img {
-  width: 300px !important;
+  width: 280px !important;
 }
 
 .navbar-container {
@@ -10,14 +10,13 @@
 }
 
 .navbar {
-  height: auto;
+  height: 70px;
 }
 
 /* hero */
 .hero-section {
   width: 100vw;
   height: 100vh;
-
   max-height: 1080px;
   min-height: 810px;
   padding-top: 0px;
@@ -33,10 +32,29 @@
   width: 100%;
   object-fit: contain;
   filter: opacity(20%);
-  /* transform: translateX(10%) translateY(40%); */
 }
 .hero-wrapper {
   padding-top: 0px;
   padding-left: 6rem;
   width: 100% !important;
+}
+
+/* typewrite */
+.typewrite-heading {
+  line-height: 2.4;
+  font-weight: lighter;
+}
+
+.typewrite-heading a {
+  text-decoration: none;
+  /* font-weight: lighter; */
+  letter-spacing: 0.5rem;
+  font-size: 5rem;
+}
+.hero-info-container {
+  width: auto;
+}
+
+.hero-button {
+  margin-top: 1.5rem;
 }
