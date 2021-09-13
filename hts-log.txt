@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 13 Sep 2021 09:52:15 at https://www.mightyapp.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.mightyapp.com/ -O1 "C:\Users\zubai\Desktop\might app\Mighty App" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:52:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link https://www.mightyapp.com/robots.txt (from primary/primary)
+09:52:37	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link https://www.mightyapp.com/"https://assets.website-files.com/605cf560c1c73e1ee595cfc6/6077b961325eb93570671b8e_figma-timelapse-poster-00001.jpg" (from https://www.mightyapp.com/)
+09:52:37	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link https://www.mightyapp.com/privacy (from https://www.mightyapp.com/)
+09:52:37	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link https://www.mightyapp.com/terms (from https://www.mightyapp.com/)
+09:52:38	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link https://www.mightyapp.com/"https://assets.website-files.com/605cf560c1c73e1ee595cfc6/6077b961325eb93570671b8e_figma-timelapse-poster-00001.jpg" (from https://www.mightyapp.com/)
+09:52:39	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link https://www.mightyapp.com/privacy (from https://www.mightyapp.com/)
+09:52:39	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link https://www.mightyapp.com/terms (from https://www.mightyapp.com/)
+09:52:39	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link https://www.mightyapp.com/"https://assets.website-files.com/605cf560c1c73e1ee595cfc6/6077b961325eb93570671b8e_figma-timelapse-poster-00001.jpg" (from https://www.mightyapp.com/)
+09:52:39	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link https://www.mightyapp.com/privacy (from https://www.mightyapp.com/)
+09:52:39	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link https://www.mightyapp.com/terms (from https://www.mightyapp.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 24 seconds : 62 links scanned, 52 files written (11237897 bytes overall) [10645199 bytes received at 443549 bytes/sec], 831206 bytes transferred using HTTP compression in 5 files, ratio 24%, 6.8 requests per connection
+(4 errors, 6 warnings, 0 messages)
