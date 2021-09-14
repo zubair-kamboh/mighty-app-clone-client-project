@@ -36,12 +36,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: opacity(20%);
-}
-.hero-wrapper {
-  padding-top: 0px;
-  padding-left: 6rem;
-  width: 100% !important;
+  /* filter: opacity(20%); */
 }
 
 /* typewrite */
@@ -54,7 +49,7 @@
   text-decoration: none;
   font-weight: lighter;
   letter-spacing: 1px;
-  font-size: 4.2rem;
+  font-size: 3rem;
 }
 .hero-info-container {
   width: auto;
@@ -65,5 +60,20 @@
 }
 
 .hero-container {
-  margin-top: 7rem;
+  margin: 7rem 0 0 55rem;
+}
+
+/* company logos */
+.amazon-logo {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.tab-logo {
+  width: 150px;
+}
+
+.alibaba-logo {
+  height: 60px;
 }
