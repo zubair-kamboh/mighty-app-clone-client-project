@@ -61,7 +61,9 @@
 }
 
 .hero-button {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
-/* company logoes */
+.hero-container {
+  margin-top: 7rem;
+}
