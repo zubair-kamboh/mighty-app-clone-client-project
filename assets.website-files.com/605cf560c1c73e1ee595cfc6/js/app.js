@@ -60,8 +60,8 @@ window.onload = function () {
 // slow down main video
 window.addEventListener('load', () => {
   const vid = document.getElementById('hero-main-video')
-  const circle = document.querySelector('.opague-circle')
+  // const circle = document.querySelector('.opague-circle')
 
-  circle.style.display = 'block'
+  // circle.style.display = 'block'
   vid.playbackRate = 0.5
 })
