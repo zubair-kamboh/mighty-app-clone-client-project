@@ -171,3 +171,10 @@ const typewriteFn = () => {
 }
 
 typewriteFn()
+
+// AOS LIBRARY
+AOS.init({
+  offset: 200,
+  delay: 50,
+  duration: 400,
+})
