@@ -186,14 +186,7 @@ p.typewrite-cursor::after {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  /* transform: translateZ(20) !important; */
 }
-
-/* gradient cards */
-/* 
-.switch-info-container {
-  background-image: linear-gradient(130deg, #02aab0, #00cdac);
-} */
 
 .zoom-notification {
   display: none;
