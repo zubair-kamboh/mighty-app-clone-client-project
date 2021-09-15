@@ -190,10 +190,10 @@ p.typewrite-cursor::after {
 }
 
 /* gradient cards */
-
+/* 
 .switch-info-container {
   background-image: linear-gradient(130deg, #02aab0, #00cdac);
-}
+} */
 
 .zoom-notification {
   display: none;
