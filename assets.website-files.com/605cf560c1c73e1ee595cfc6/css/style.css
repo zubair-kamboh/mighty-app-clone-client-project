@@ -215,9 +215,20 @@ p.typewrite-cursor::after {
   position: relative;
 }
 
+.cu-blue-gradient {
+  background-image: linear-gradient(
+    130deg,
+    rgb(108, 66, 228) 20%,
+    rgb(0, 176, 234) 85%
+  );
+
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 20px;
+}
+
 .cu-container {
-  width: 750px;
-  max-width: 90%;
+  width: 900px;
+  /* max-width: 90%; */
 
   background: linear-gradient(rgba(28, 5, 49, 0.9), rgba(28, 5, 49, 0.9));
   border-radius: 20px;
@@ -225,8 +236,8 @@ p.typewrite-cursor::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 3rem 2rem;
+  position: relative;
+  padding: 3rem 4rem;
 }
 
 .cu-container .form-control {
@@ -295,9 +306,11 @@ p.typewrite-cursor::after {
   font-family: sans-serif;
 }
 
-.cu-container .btn {
-  width: 100%;
-  margin-top: 1.6rem;
+.cu-btn {
+  margin: auto;
+  height: auto;
+  padding: 12px 22px !important;
+  margin-top: 1rem;
 }
 
 /* voice over video */
@@ -321,7 +334,7 @@ p.typewrite-cursor::after {
   padding-top: 20px;
 }
 
-.p-roboto .tech-p {
+.markshare {
   padding-top: 40px;
 }
 
@@ -332,5 +345,4 @@ p.typewrite-cursor::after {
 
 .footer-p {
   font-size: 0.8rem;
-  /* text-align: center; */
 }
