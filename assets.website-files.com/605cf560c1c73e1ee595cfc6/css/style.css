@@ -310,7 +310,7 @@ p.typewrite-cursor::after {
   margin: auto;
   height: auto;
   padding: 12px 22px !important;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* voice over video */
