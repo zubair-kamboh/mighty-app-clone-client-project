@@ -163,6 +163,10 @@ p.typewrite-cursor::after {
   font-weight: bold;
 }
 
+.screens-row {
+  padding: 0px 5rem;
+}
+
 /* movie poster */
 .video-container {
   height: 700px;
@@ -297,16 +301,36 @@ p.typewrite-cursor::after {
 }
 
 /* voice over video */
-.voiceover-container {
+
+.zoom-bottom-container {
   position: relative;
-  background: transparent;
 }
 
-.voiceover-container video {
+.zoom-bottom-container video {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0%;
   left: 0%;
   object-fit: cover;
+  padding: 4px;
+  border-radius: 25px;
+}
+
+.p-codec-white {
+  padding-top: 20px;
+}
+
+.p-roboto .tech-p {
+  padding-top: 40px;
+}
+
+.zoom-info-container {
+  width: 95%;
+  margin-left: auto;
+}
+
+.footer-p {
+  font-size: 0.8rem;
+  /* text-align: center; */
 }

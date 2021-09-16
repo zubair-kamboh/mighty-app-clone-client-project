@@ -3021,7 +3021,7 @@ a {
   flex: 0 0 auto;
 }
 .column.zoom-screen-column {
-  padding-right: 5vw;
+  /* padding-right: 5vw; */
   padding-left: 2.5vw;
 }
 .battery-card {
