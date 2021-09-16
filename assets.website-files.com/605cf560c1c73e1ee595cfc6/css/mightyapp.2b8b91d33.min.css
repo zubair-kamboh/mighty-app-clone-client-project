@@ -283,8 +283,7 @@ html[data-w-dynpage] [data-w-cloak] {
   text-transform: inherit;
   list-style-type: disc;
   text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
+
   cursor: inherit;
   white-space: inherit;
   word-break: normal;
@@ -444,7 +443,7 @@ label {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  vertical-align: middle;
+
   background-color: #fff;
   border: 1px solid #ccc;
 }
@@ -1030,7 +1029,6 @@ textarea.w-select {
   background: #ddd;
   clear: both;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .w-slider-mask {
   position: relative;
@@ -1063,7 +1061,6 @@ textarea.w-select {
   height: 40px;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .w-slider-nav.w-round > div {
   border-radius: 100%;
@@ -1121,7 +1118,7 @@ textarea.w-select {
   color: #fff;
   font-size: 40px;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: rgba(0, 0, 0, 0);
+
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1265,11 +1262,6 @@ textarea.w-select {
   z-index: 2000;
   outline: 0;
   opacity: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-transform: translate(0, 0);
 }
 .w-lightbox-backdrop,
 .w-lightbox-container {
@@ -1390,7 +1382,6 @@ textarea.w-select {
   padding: 2vh 1vh;
   box-sizing: content-box;
   cursor: pointer;
-  -webkit-transform: translate3d(0, 0, 0);
 }
 .w-lightbox-active {
   opacity: 0.3;
@@ -1704,7 +1695,6 @@ textarea.w-select {
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1898,7 +1888,6 @@ a {
   font-weight: 800;
 }
 .h2.h2-fixed-width {
-  width: 500px;
   max-width: 100%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -2658,12 +2647,8 @@ a {
 .tech-card-container {
   width: 50%;
   height: 550px;
-  padding-right: 2.5vw;
 }
-.tech-card-container.padding-left {
-  padding-right: 0;
-  padding-left: 2.5vw;
-}
+
 .footer-logo {
   width: 120px;
 }
@@ -4606,9 +4591,7 @@ a {
   .h2.cta-h2 {
     font-size: 80px;
   }
-  .h2.h2-fixed-width {
-    width: 550px;
-  }
+
   .h1 {
     font-size: 104px;
   }
@@ -4800,9 +4783,7 @@ a {
   .tech-card-container {
     padding-right: 40px;
   }
-  .tech-card-container.padding-left {
-    padding-left: 40px;
-  }
+
   .video-container {
     padding-top: 75px;
     padding-right: 75px;
